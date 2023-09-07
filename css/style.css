@@ -70,7 +70,8 @@ body {
     font-family: 'Prompt', sans-serif;
     text-align: center;
     backface-visibility: hidden;
-    font-size: 28px; 
+    font-size: 28px;
+    padding: 8px 0;
   }
   
   .happy {
