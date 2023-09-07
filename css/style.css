@@ -9,8 +9,9 @@ body {
     justify-content: center;
     /*background-color: rgba(168, 167, 167, 0.6);*/
     background-color: rgb(55, 55, 167);
-    height: 99vh;
+    height: 100vh;
     margin: 0;
+    padding: 0;
   }
   /*Create the card container*/
   .birthdayCard {
