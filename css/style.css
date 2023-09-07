@@ -233,13 +233,13 @@ body {
   
   .inside-text {
     position: relative;
-    top:-175px;
+    top:-185px;
     transform: scale(0.7);
   }
   
   .wishes {
     position: relative;
-    top:-130px;
+    top:-135px;
     margin: 25px;
   }
   
@@ -249,12 +249,12 @@ body {
   }
   
   .ass {
-    margin-left: 130px;
+    margin-left: 145px;
     margin-bottom: -25px;
     font-style: italic;
   }
   
   .name {
-    margin-left:165px;
+    margin-left:180px;
     font-family: 'Dancing Script', cursive;
   }
