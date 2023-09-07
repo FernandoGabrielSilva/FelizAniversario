@@ -16,8 +16,8 @@ body {
   /*Create the card container*/
   .birthdayCard {
     position: relative;
-    width: 299px;
-    height:450px;
+    width: 310px;
+    height:460px;
     cursor: pointer;
     transform-style: preserve-3d;
     transform: perspective(2500px);
@@ -57,8 +57,8 @@ body {
   .cardFront {
     position: relative;
     background-color: rgb(255, 246, 246);
-    width: 299px;
-    height:450px;
+    width: 310px;
+    height:460px;
     overflow: hidden;
     transform-origin: left;
     box-shadow: inset 100px 20px 100px rgba(0,0,0,.13), 30px 0 50px rgba(0,0,0,0.1);
@@ -74,7 +74,7 @@ body {
   }
   
   .happy {
-    top:198px;
+    top:210px;
   }
   
   .toyou {
@@ -86,13 +86,13 @@ body {
     font-family: 'Anton', sans-serif;
     font-size: 28px;
     text-align: center;
-    top:163px;
+    top:169px;
   }
   
   .wrap-deco {
     position: absolute;
     top:-230px;
-    left:-190px;
+    left:-200px;
   }
   
   .decorations {
@@ -144,7 +144,7 @@ body {
     transform: scaleX(-1);
     position: absolute;
     top:-230px;
-    left:480px; 
+    left:510px; 
   }
   
   .decorationsThree:before {
@@ -223,8 +223,8 @@ body {
   .cardInside {
     position: absolute;
     background-color: #fff;
-    width: 299px;
-    height: 450px;
+    width: 310px;
+    height: 460px;
     z-index:-1;
     left:0;
     top:0;
