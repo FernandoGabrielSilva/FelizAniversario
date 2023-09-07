@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Feliz Aniversário</title>
+</head>
+<body>
+    <div class="birthdayCard">
+        <div class="cardFront">
+            <div class="front-text">
+            <h3 class="happy">FELIZ</h3>
+            <h2 class="bday">ANIVERSÁRIO</h2> 
+            <h3 class="toyou">ANDREY!</h3>  
+        </div>
+        <div class="wrap-deco">
+            <div class="decorations"></div>
+            <div class="decorationsTwo"></div>
+        </div> 
+        <div class="wrap-decoTwo">
+            <div class="decorations"></div>
+            <div class="decorationsThree"></div>
+        </div>
+          <div class="plate">
+            <div class="cake"></div>
+            <div class="flame"></div>
+          </div>
+        </div>  
+          <div class="cardInside">
+             <div class="inside-text">
+          <h3 class="happy">FELIZ</h3>
+          <h2 class="bday">ANIVERSÁRIO</h2> 
+          <h3 class="toyou">ANDREY!</h3>  
+          </div>
+            <div class="wishes">
+            <p>Feliz Niver Brother</p>
+            <p>Hoje é seu aniversario, por isso quero lhe deixar alguns conselhos: sorria enquanto você tem dentes, se alguém chamar você de velho, bata nele com sua bengala. Se ele começar a correr, atire sua dentadura nele!
+            Além disso, você está ficando tão velho que nem sei onde vai arranjar dinheiro para pagar as velas todas do seu bolo de aniversário. Até poderia fazer um crediário, mas ninguém lhe dá crédito.
+            Agora falando sério, tenha um grande dia de aniversário, meu grande amigo!
+            </p>
+            <p class="ass">Ass:</p>
+            <p class="name">Fernando Gabriel</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="confetti.js"></script>
+      <script>
+
+        // start
+
+        const start = () => {
+            setTimeout(function() {
+                confetti.start()
+            }, 1000); // 1000 is time that after 1 second start the confetti ( 1000 = 1 sec)
+        };
+
+        //  Stop
+
+        const stop = () => {
+            setTimeout(function() {
+                confetti.stop()
+            }, 5000); // 5000 is time that after 5 second stop the confetti ( 5000 = 5 sec)
+        };
+
+        start();
+        //stop();
+    </script>
+</body>
+</html>
